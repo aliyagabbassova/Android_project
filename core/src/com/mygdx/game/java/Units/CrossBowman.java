@@ -6,7 +6,6 @@ import java.util.Random;
 
 public class CrossBowman extends RangeAttackUnit {
     private final int WEAPONDAMAGE;
-
     public CrossBowman(String name, Pos pos) {
         super(15,15,85,name,pos,9,9,10,10,3, 9);
         this.WEAPONDAMAGE = 10;
@@ -30,7 +29,6 @@ public class CrossBowman extends RangeAttackUnit {
         }
 
     }
-
     @Override
     public String getInfo() {
         return "Арбалетчик ";

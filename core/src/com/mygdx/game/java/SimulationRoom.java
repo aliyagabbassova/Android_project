@@ -1,5 +1,4 @@
 package com.mygdx.game.java;
-
 import java.util.Scanner;
 
 public class SimulationRoom {
@@ -9,7 +8,6 @@ public class SimulationRoom {
        game.setTeams(5);
        game.setTurnOrder();
        View view = new View(game);
-
        view.view();
        System.out.println("'1' - НАЧАТЬ СРАЖЕНИЕ\n'2' - МИРНО РАЗОЙТИСЬ");
        while (myScanner.nextLine().equals("1")) {
@@ -30,6 +28,4 @@ public class SimulationRoom {
        }
         System.out.println("конец...");
     }
-
-
 }

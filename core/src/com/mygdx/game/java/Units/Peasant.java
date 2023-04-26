@@ -3,7 +3,6 @@ package com.mygdx.game.java.Units;
 import com.mygdx.game.java.Pos;
 
 import java.util.ArrayList;
-
 public class Peasant extends BaseHero {
     public Peasant(String name, Pos pos) {
         super(name, pos, 7, 7, 5, 5, 0,4);

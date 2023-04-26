@@ -11,7 +11,6 @@ public class Game {
      public int turnCount;
      public int teamSize;
 
-
     public void setTeams(int teamSize){
         this.teamSize = teamSize;
         this.team1 = new ArrayList<>();

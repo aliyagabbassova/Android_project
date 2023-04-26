@@ -7,14 +7,12 @@ import java.util.ArrayList;
 public abstract class RangeAttackUnit extends BaseHero {
     protected int projectiles, maxProjectiles;
     protected int accuracy;
-
     public RangeAttackUnit(int projectiles, int maxProjectiles, int accuracy, String name, Pos pos, int strength, int maxStrength, int armor, int maxArmor, int armorBreak, int initiative) {
         super(name, pos, strength, maxStrength, armor, maxArmor, armorBreak, initiative);
         this.projectiles = projectiles;
         this.maxProjectiles = maxProjectiles;
         this.accuracy = accuracy;
     }
-
     protected abstract void attackTarget();
 
     @Override
